@@ -1,9 +1,9 @@
 public class DiscountsOnShirts {
     public static void main(String[] args) {
-        int basePrice = 1500;
-        int numberOfSelectedShirts = 5; // уже выбранно рубашек
-        int requiredQuantityForDiscount = 8;//требуемое кол-во для скидки
-        float discountPercentage = 20;
+        final int basePrice = 1500;
+        final int numberOfSelectedShirts = 5; // уже выбранно рубашек
+        final int requiredQuantityForDiscount = 8;//требуемое кол-во для скидки
+        final float discountPercentage = 20;
         int stillNeedShirtsForDiscount = requiredQuantityForDiscount - numberOfSelectedShirts; //сколько нужно еще выбрать рубашек для скидки
         int totalPriceOfTheSelected = basePrice * numberOfSelectedShirts; //сумма выбранных рубашек без скидки
         int totalPriceShirtsNeedPurchased = stillNeedShirtsForDiscount * basePrice; //  общая цена рубашек (без скидки), которые надо докупить, чтобы получить скидку
