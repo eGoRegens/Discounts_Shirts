@@ -12,7 +12,7 @@ public class DiscountsOnShirts {
         final double discountedPriceOfSelectedShirts = (basePrice * requiredQuantityForDiscount) * 0.8; //цена рубашек со скидкой
         final double pricePieceDiscount = discountedPriceOfSelectedShirts / requiredQuantityForDiscount; //цена за штуку со скидкой
         final double amountSaved = (totalPriceOfTheSelected + totalPriceShirtsNeedPurchased) - discountedPriceOfSelectedShirts; //количество сэкономленных денег при сикдке
-        double freeShirtsInt = amountSaved / basePrice;
+        final double freeShirtsInt = amountSaved / basePrice;
 
         System.out.println("Цена за одну рубашку без скидки - " + basePrice + " у.е.");
         System.out.println("Кол-во выбранных рубашек - " + numberOfSelectedShirts + " шт.");
