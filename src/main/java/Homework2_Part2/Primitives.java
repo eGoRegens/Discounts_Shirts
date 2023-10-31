@@ -5,7 +5,7 @@ public class Primitives {
         byte myByte = 28;
         short myShort = 2000;
         int myInt = 200000;
-        long myLong = 331311022L;
+        long myLong = 331311L;
         float myFloat = 323.4f;
         double myDouble = 234.24;
         char c = 'f';
