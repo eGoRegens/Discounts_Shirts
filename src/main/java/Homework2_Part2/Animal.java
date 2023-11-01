@@ -3,6 +3,7 @@ package Homework2_Part2;
 abstract class Animal {
     public abstract void move();
 }
+
 class Cat extends Animal {
     @Override
     public void move() {
