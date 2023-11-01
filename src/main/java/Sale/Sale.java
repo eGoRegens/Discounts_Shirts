@@ -1,11 +1,12 @@
-package org.example;
+package Sale;
 
-public class DiscountsOnShirts {
+public class Sale {
     public static void main(String[] args) {
         final int basePrice = 1500;
         final int numberOfSelectedShirts = 5; // уже выбранно рубашек
         final int requiredQuantityForDiscount = 8;//требуемое кол-во для скидки
         final float discountPercentage = 20;
+
         final int stillNeedShirtsForDiscount = requiredQuantityForDiscount - numberOfSelectedShirts; //сколько нужно еще выбрать рубашек для скидки
         final int totalPriceOfTheSelected = basePrice * numberOfSelectedShirts; //сумма выбранных рубашек без скидки
         final int totalPriceShirtsNeedPurchased = stillNeedShirtsForDiscount * basePrice; //  общая цена рубашек (без скидки), которые надо докупить, чтобы получить скидку
