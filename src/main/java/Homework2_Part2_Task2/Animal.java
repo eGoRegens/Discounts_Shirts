@@ -1,4 +1,4 @@
-package Homework2_Part2;
+package Homework2_Part2_Task2;
 
 abstract class Animal {
     public abstract void move();
